@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">To-Do List</h1>
+    <div class="date-time">
+      <span class="time"></span>
+    </div>
+    <div class="task-count">
+      <div class="count">
+        <span class="total-tasks">0</span>
+        <p>Total Tasks</p>
+        <span class="description">Number of tasks you have created</span>
+      </div>
+      <div class="count">
+        <span class="remaining-tasks">0</span>
+        <p>Remaining To Do</p>
+        <span class="description">Tasks remaining to complete.</span>
+      </div>
+      <div class="count">
+        <span class="completed-tasks">0</span>
+        <p>Completed Tasks</p>
+        <span class="description">Total Number of tasks completed</span>
+      </div>
+    </div>
+    <div class="input-container">
+      <input type="text" class="task-input" placeholder="Enter task...">
+      <button class="add-task">Add</button>
+    </div>
+    <div class="task-list-container">
+      <ul class="task-list">
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
